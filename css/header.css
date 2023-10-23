@@ -1,0 +1,118 @@
+.navigation__item {
+    display: grid;
+    grid-template-columns: 190px 151px 757px 69px 63px 82px;
+    grid-template-rows: auto;
+    border: solid 1px red;
+    max-width: 1770px;
+}
+
+.navigation__link-big {
+    font-weight: 700;
+    color: #2D2D2D;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.06em;
+    margin-right: 123px;
+}
+
+.navigation__link_color {
+    color:#3670C7;
+}
+
+.header__button {
+    background-color: #3670C7ff;
+    font-size: 22px;
+    line-height: 33px;
+    border-radius: 10px;
+    width: 151px;
+    padding: 15px 28px 15px 30px;
+    color: #fff;
+
+}
+
+.header__button:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background-image: url(/image/vector.svg);
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+
+.search {
+    display: grid;
+}
+
+.search__input {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #EFEFEF;
+    width: 757px;
+    height: 54px;
+    border-radius: 30px;
+    border: none;
+}
+
+.search__input::placeholder {
+    color:#8F8F8F;
+    padding-left: 40px;
+}
+
+.button {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 2;
+    background-color:#3670C7;
+    border-radius: 30px;
+    width: 101px;
+    height: 54px;
+    align-items: end;
+}
+
+.search__button {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(/image/search.svg);
+    background-repeat: no-repeat;
+}
+
+.navigation__link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color:#2D2D2D;
+}
+
+.navigation__link-person:before {
+    content: "";
+    display: block;
+    background-image: url(/image/person.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.navigation__link-shopping-cart:before {
+    content: "";
+    display: block;
+    background-image: url(/image/shopping_cart.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.navigation__link-heart:before {
+    content: "";
+    display: block;
+    background-image: url(/image/heart.svg);
+    width: 30px;
+    height: 28px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
