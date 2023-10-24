@@ -1,0 +1,52 @@
+.gallery__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__list {
+    display: grid;
+    gap: 60px;
+    grid-template-areas:
+    "one one one one one one"
+    "one one one one one one"
+    "two three four four five five"
+    "six six four four seven seven"
+    "eight eight eight eight nine ten"
+    "eight eight eight eight nine eleven";
+}
+
+.gallery__item_01 {
+    grid-area: one;
+}
+.gallery__item_02 {
+    grid-area: two;
+}
+.gallery__item_03 {
+    grid-area: three;
+}
+.gallery__item_04 {
+    grid-area: four;
+}
+.gallery__item_05 {
+    grid-area: five;
+}
+.gallery__item_06 {
+    grid-area: six;
+}
+.gallery__item_07 {
+    grid-area: seven;
+}
+.gallery__item_08 {
+    grid-area: eight;
+}
+.gallery__item_09 {
+    grid-area: nine;
+}
+.gallery__item_10 {
+    grid-area: ten;
+}
+.gallery__item_11 {
+    grid-area: eleven;
+}
