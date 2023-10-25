@@ -1,8 +1,11 @@
+.header {
+    padding-top: 27px;
+}
+
 .navigation__item {
     display: grid;
     grid-template-columns: 190px 151px 757px 69px 63px 82px;
     grid-template-rows: auto;
-    border: solid 1px red;
     max-width: 1770px;
     justify-content: space-between;
     align-items: center;
