@@ -137,10 +137,37 @@
         grid-template-rows: repeat(2, 1fr);
     }
     
-    .navigation__list {
-        grid-column: 1 / 7;
-        grid-row: 1 / 4;
+    .navigation__list-one {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
+
+    .navigation__list-two {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .navigation__list-three {
+        grid-column: 3 / 7;
+        grid-row: 2 / 3;
+    }
+
+    .navigation__list-four {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .navigation__list-five {
+        grid-column: 5 / 6;
+        grid-row: 1 / 2;
+    }
+
+    .navigation__list-six {
+        grid-column: 6 / 7;
+        grid-row: 1 / 2;
+    }
+
+
 
     .search__input {
         width: 700px;
