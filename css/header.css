@@ -28,10 +28,8 @@
     font-size: 22px;
     line-height: 33px;
     border-radius: 10px;
-    width: 151px;
     padding: 15px 28px 15px 30px;
     color: #fff;
-
 }
 
 .header__button:before {
@@ -148,7 +146,8 @@ input {
     }
 
     .navigation__item {
-        grid-template-columns: repeat(3 1fr, 3 2fr);
+        display: grid;
+        /* grid-template-columns: repeat(3 1fr, 3 2fr); */
         row-gap: 34px;
     }
     
@@ -191,3 +190,4 @@ input {
         text-align: center;
     }
 }
+
