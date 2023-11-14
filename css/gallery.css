@@ -542,7 +542,7 @@
     
     .gallery__list {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr repeat(8, 1fr);
+        grid-template-rows: 340px repeat(8, 130px);
         grid-template-areas: unset;
     }
 
