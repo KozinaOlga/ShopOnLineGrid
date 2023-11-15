@@ -11,7 +11,7 @@ html {
 
 .container {
     max-width: 1830px;
-    padding: 0 30;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -68,5 +68,5 @@ fieldset {
 }
 
 section {
-    padding: 45px 0;
+    padding: 15px 0;
 }
